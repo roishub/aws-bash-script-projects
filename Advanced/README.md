@@ -35,3 +35,11 @@ Redirects the output to a log file with a timestamp for later review.
 
 ## CSV Export
 Exports the list of EC2 instances to a CSV file for further analysis.
+
+#  Things to note
+# To execute this:
+Clone this repo, and after getting inside the "Advanced" directory write-
+~~~
+./aws-resource-monitoring-advanced.sh | more
+~~~
+(Note: u can include 'set -x' to run the script in debug mode)
